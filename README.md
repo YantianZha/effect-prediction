@@ -38,5 +38,9 @@ Salakhutdinov, Richard Zemel, Yoshua Bengio. *To appear ICML (2015)*
     }
 
 
+## Acknowledgements
+*Zongsi Zhang, Mengyuan Zhang, Jianmei Ye for creating effect-prediction dataset.
+*Yu Zhang and Hannah Kerner for offering some design suggestions.
+
 ## License
 This repsoitory is released under a [revised (3-clause) BSD License](httpe//directory.fsf.org/wiki/License:BSD_3Clause). The repository uses some code from the project Action Recognition using Visual Attention, which is also licensed under a revised (3-clause) BSD License. 
