@@ -1,0 +1,274 @@
+yochan@EN4102960:~/DL/effect-recognition$ THEANO_FLAGS='floatX=float32,device=gpu0,mode=FAST_RUN,nvcc.fastmath=True' python -m scripts.evaluate_ucf11
+Using gpu device 0: Quadro K2100M (CNMeM is disabled, CuDNN 3007)
+GPU Lock Acquired
+BBBB
+Anything printed here will end up in the output directory for job #0
+{'decay_c': [1e-05], 'patience': [10], 'n_layers_init': [1], 'dim_out': [512], 'max_epochs': [15], 'dispFreq': [30], 'validFreq': [100], 'temperature_inverse': [1], 'reload': [False], 'n_layers_att': [1], 'fps': [60], 'ctx_dim': [1024], 'valid_batch_size': [256], 'n_actions': [7], 'training_stride': [1], 'optimizer': ['adam'], 'alpha_c': [0.0], 'dictionary': [None], 'learning_rate': [0.0001], 'batch_size': [77], 'selector': [False], 'last_n': [5], 'dataset': ['ucf11'], 'ctx2out': [False], 'dim': [512], 'use_dropout': [True], 'testing_stride': [1], 'n_layers_out': [1], 'maxlen': [4], 'model': ['/home/yochan/DL/effect-recognition/models/1/putDown_model.npz'], 'saveFreq': [150]}
+Yantian, 1
+-----
+Booting up all data handlers
+./util/datahander.py
+##Dataset size 731
+./util/datahander.py
+##Dataset size 731
+./util/datahander.py
+##Dataset size 179
+./util/datahander.py
+##Dataset size 139
+Data handlers ready
+-----
+Building model
+break1
+Optimization
+Epoch  0
+Yantian, num_train_batches 10
+Yantian, uidx 1
+Yantian, uidx 2
+Yantian, uidx 3
+Yantian, uidx 4
+Yantian, uidx 5
+Yantian, uidx 6
+Yantian, uidx 7
+Yantian, uidx 8
+Yantian, uidx 9
+Yantian, uidx 10
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.483870967742 Valid 0.425925925926 Test 0.346153846154
+Epoch  1
+Yantian, num_train_batches 10
+Yantian, uidx 11
+Yantian, uidx 12
+Yantian, uidx 13
+Yantian, uidx 14
+Yantian, uidx 15
+Yantian, uidx 16
+Yantian, uidx 17
+Yantian, uidx 18
+Yantian, uidx 19
+Yantian, uidx 20
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.459677419355 Valid 0.0185185185185 Test 0.230769230769
+Epoch  2
+Yantian, num_train_batches 10
+Yantian, uidx 21
+Yantian, uidx 22
+Yantian, uidx 23
+Yantian, uidx 24
+Yantian, uidx 25
+Yantian, uidx 26
+Yantian, uidx 27
+Yantian, uidx 28
+Yantian, uidx 29
+Yantian, uidx 30
+Epoch  2 Update  30 Cost  174.692230225 PD  5.85780501366 UD  0.505270957947
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.629032258065 Valid 0.240740740741 Test 0.346153846154
+Epoch  3
+Yantian, num_train_batches 10
+Yantian, uidx 31
+Yantian, uidx 32
+Yantian, uidx 33
+Yantian, uidx 34
+Yantian, uidx 35
+Yantian, uidx 36
+Yantian, uidx 37
+Yantian, uidx 38
+Yantian, uidx 39
+Yantian, uidx 40
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.717741935484 Valid 0.314814814815 Test 0.423076923077
+Epoch  4
+Yantian, num_train_batches 10
+Yantian, uidx 41
+Yantian, uidx 42
+Yantian, uidx 43
+Yantian, uidx 44
+Yantian, uidx 45
+Yantian, uidx 46
+Yantian, uidx 47
+Yantian, uidx 48
+Yantian, uidx 49
+Yantian, uidx 50
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.854838709677 Valid 0.314814814815 Test 0.538461538462
+Epoch  5
+Yantian, num_train_batches 10
+Yantian, uidx 51
+Yantian, uidx 52
+Yantian, uidx 53
+Yantian, uidx 54
+Yantian, uidx 55
+Yantian, uidx 56
+Yantian, uidx 57
+Yantian, uidx 58
+Yantian, uidx 59
+Yantian, uidx 60
+Epoch  5 Update  60 Cost  129.485733032 PD  5.6994240284 UD  0.502743959427
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.911290322581 Valid 0.259259259259 Test 0.576923076923
+Epoch  6
+Yantian, num_train_batches 10
+Yantian, uidx 61
+Yantian, uidx 62
+Yantian, uidx 63
+Yantian, uidx 64
+Yantian, uidx 65
+Yantian, uidx 66
+Yantian, uidx 67
+Yantian, uidx 68
+Yantian, uidx 69
+Yantian, uidx 70
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.91935483871 Valid 0.259259259259 Test 0.576923076923
+Epoch  7
+Yantian, num_train_batches 10
+Yantian, uidx 71
+Yantian, uidx 72
+Yantian, uidx 73
+Yantian, uidx 74
+Yantian, uidx 75
+Yantian, uidx 76
+Yantian, uidx 77
+Yantian, uidx 78
+Yantian, uidx 79
+Yantian, uidx 80
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.967741935484 Valid 0.259259259259 Test 0.538461538462
+Epoch  8
+Yantian, num_train_batches 10
+Yantian, uidx 81
+Yantian, uidx 82
+Yantian, uidx 83
+Yantian, uidx 84
+Yantian, uidx 85
+Yantian, uidx 86
+Yantian, uidx 87
+Yantian, uidx 88
+Yantian, uidx 89
+Yantian, uidx 90
+Epoch  8 Update  90 Cost  45.5962524414 PD  5.92757296562 UD  0.502356052399
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.983870967742 Valid 0.259259259259 Test 0.538461538462
+Epoch  9
+Yantian, num_train_batches 10
+Yantian, uidx 91
+Yantian, uidx 92
+Yantian, uidx 93
+Yantian, uidx 94
+Yantian, uidx 95
+Yantian, uidx 96
+Yantian, uidx 97
+Yantian, uidx 98
+Yantian, uidx 99
+Yantian, uidx 100
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.967741935484 Valid 0.259259259259 Test 0.538461538462
+Epoch  10
+Yantian, num_train_batches 10
+Yantian, uidx 101
+Yantian, uidx 102
+Yantian, uidx 103
+Yantian, uidx 104
+Yantian, uidx 105
+Yantian, uidx 106
+Yantian, uidx 107
+Yantian, uidx 108
+Yantian, uidx 109
+Yantian, uidx 110
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.991935483871 Valid 0.259259259259 Test 0.538461538462
+Epoch  11
+Yantian, num_train_batches 10
+Yantian, uidx 111
+Yantian, uidx 112
+Yantian, uidx 113
+Yantian, uidx 114
+Yantian, uidx 115
+Yantian, uidx 116
+Yantian, uidx 117
+Yantian, uidx 118
+Yantian, uidx 119
+Yantian, uidx 120
+Epoch  11 Update  120 Cost  26.0404548645 PD  5.9314520359 UD  0.504143953323
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.991935483871 Valid 0.259259259259 Test 0.538461538462
+Epoch  12
+Yantian, num_train_batches 10
+Yantian, uidx 121
+Yantian, uidx 122
+Yantian, uidx 123
+Yantian, uidx 124
+Yantian, uidx 125
+Yantian, uidx 126
+Yantian, uidx 127
+Yantian, uidx 128
+Yantian, uidx 129
+Yantian, uidx 130
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.991935483871 Valid 0.259259259259 Test 0.576923076923
+Epoch  13
+Yantian, num_train_batches 10
+Yantian, uidx 131
+Yantian, uidx 132
+Yantian, uidx 133
+Yantian, uidx 134
+Yantian, uidx 135
+Yantian, uidx 136
+Yantian, uidx 137
+Yantian, uidx 138
+Yantian, uidx 139
+Yantian, uidx 140
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.991935483871 Valid 0.259259259259 Test 0.538461538462
+Epoch  14
+Yantian, num_train_batches 10
+Yantian, uidx 141
+Yantian, uidx 142
+Yantian, uidx 143
+Yantian, uidx 144
+Yantian, uidx 145
+Yantian, uidx 146
+Yantian, uidx 147
+Yantian, uidx 148
+Yantian, uidx 149
+Yantian, uidx 150
+Epoch  14 Update  150 Cost  14.5806665421 PD  5.91458201408 UD  0.505282878876
+Saving... Done
+Seen 731 training examples
+Computing predictions (This will take a while. Set the verbose flag if you want to see the progress)
+f_preds <theano.compile.function_module.Function object at 0x7f73e0ab03d0>
+Accuracy: Train 0.991935483871 Valid 0.259259259259 Test 0.461538461538
+Computing FINAL predictions (This will take a while. Set the verbose flag if you want to see the progress)
+Final Accuracy: Train 0.991935483871 Valid 0.259259259259 Test 0.461538461538
+{'dataset': 'ucf11', 'optimizer': 'adam', 'alpha_c': 0.0, 'dictionary': None, 'batch_size': 77, 'decay_c': 1e-05, 'patience': 10, 'n_layers_init': 1, 'lrate': 0.0001, 'dim_out': 512, 'max_epochs': 15, 'dispFreq': 30, 'selector': False, 'ctx2out': False, 'n_actions': 7, 'temperature_inverse': 1, 'dim': 512, 'use_dropout': True, 'testing_stride': 1, 'n_layers_out': 1, 'n_layers_att': 1, 'maxlen': 4, 'saveto': '/home/yochan/DL/effect-recognition/models/1/putDown_model.npz', 'saveFreq': 150, 'fps': 60, 'ctx_dim': 1024, 'valid_batch_size': 256, 'reload_': False, 'training_stride': 1, 'validFreq': 100, 'last_n': 5}
+AAAA
+GPU freed
+
