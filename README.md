@@ -39,7 +39,7 @@ Salakhutdinov, Richard Zemel, Yoshua Bengio. *To appear ICML (2015)*
 
 
 ## Acknowledgements
-*Zongsi Zhang, Mengyuan Zhang, Jianmei Ye for creating effect-prediction dataset.
+*Zongsi Zhang, Mengyuan Zhang, Jianmei Ye for creating effect-prediction dataset [EP3A](https://www.dropbox.com/s/es6ipjv5u6ikysr/EP3A.zip?dl=0).
 
 *Yu Zhang and Hannah Kerner for offering some design suggestions.
 
