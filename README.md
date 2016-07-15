@@ -44,4 +44,4 @@ Salakhutdinov, Richard Zemel, Yoshua Bengio. *To appear ICML (2015)*
 *Yu Zhang and Hannah Kerner for offering some design suggestions.
 
 ## License
-This repsoitory is released under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html). The repository uses some code from the project Action Recognition using Visual Attention, which is licensed under a revised (3-clause) BSD License. 
+This repsoitory is released under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html). The repository uses some code from the project [Action Recognition using Visual Attention](https://github.com/YantianZha/action-recognition-visual-attention), which is licensed under a revised (3-clause) BSD License. 
