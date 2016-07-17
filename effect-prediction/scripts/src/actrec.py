@@ -1,4 +1,6 @@
-# Attention-based action recognition
+# coding: utf-8
+# Modified by Yantian Zha at Yochan lab, ASU, on April 2016
+# Reference: https://github.com/kracwarlock/action-recognition-visual-attention/blob/master/src/actrec.py
 
 import theano
 import theano.tensor as tensor
